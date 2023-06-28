@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(242.08deg, #52BEDB 2.59%, rgba(66, 191, 225, 0.79375) 26.01%, #47CCDB 59.83%, #6E9CDA 107.14%);
+    
+
+}
+
+.box {
+    display: flex;
+    width: 1103px;
+    height: 666px;
+    gap: 100px;
+    background-color: white;
+    position: relative;
+}
+
+.leftSide {
+    width: 506px;
+    height: 667px;
+    background-color: #5E5BF3;
+    clip-path: polygon(0% 0%, 100% 0%, 68% 100%, 0% 100%);
+    
+     
+}
+
+.prevPage {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.prevPage h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.imgCard {
+    position: absolute;
+    z-index: 1;
+    top: 166.9px;
+    left: 55px;
+}
+
+.myForm {
+    margin-top: 50px;
+}
+
+.myForm h1 {
+    font-size: 28px;
+    color: black; 
+}
+
+
+.cardName {
+    margin-top: 60px;
+}
+
+.cardName h1, .cardNumber h1, .expDate h1, .cvcDiv h1 {
+    font-size: 14px;
+}
+
+.cardName input, .cardNumber input {
+    width: 418px;
+    outline: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid gray;
+    margin-top: 30px;
+}
+
+.cardNumber {
+    margin-top: 30px;
+}
+
+.expDateAndCvc {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.expMonth, .expYear {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid gray;
+    outline: 0;
+}
+
+.monthYear {
+    margin-top: 30px;
+}
+
+.cvcDiv input {
+    width: 155px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid gray;
+    margin-top: 30px;
+    outline: 0;
+}
+
+.inpCheckbox {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.inpCheckbox input {
+    border-radius: 50%;
+}
+
+#submitButton {
+    background-color: #0369BB;
+    height: 73px;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 130px;
+    cursor: pointer;
+}
